@@ -1,7 +1,7 @@
 * {
     background-color: silver;
     color: rgb(6, 6, 44);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
     padding:  auto 0;
     margin: auto 0;
@@ -20,7 +20,9 @@ header {
 
 header h1 {
     display: inline-block;
-    font-size: 84px;
+    font-size: 100px;
+    font-family: brush script mt, Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px ghostwhite;
 }
 
 header nav {
