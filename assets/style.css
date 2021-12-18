@@ -45,7 +45,7 @@ img {
 /* Element selector - Section */
 section {
     font-size: 25px;
-    text-indent: 50%;
+    text-align: center;
     margin: 20px;
 }
 
