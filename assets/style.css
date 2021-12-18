@@ -1,6 +1,6 @@
-/* Basic style of entire page */
+/* Universal selector - Basic style of entire page */
 * {
-    background-color: rgb(6, 6, 44);
+    background-color: rgb(4, 4, 24);
     color: ghostwhite;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
@@ -9,14 +9,14 @@
 
 }
 
-/* Padding and centering the header */
+/* Element selector - Padding and centering the header */
 header {
     padding: 20px;
     text-align: center;
 
 }
 
-/* Styling font and text of h1 */
+/* Element selector - Styling font and text of h1 */
 header h1 {
     display: inline-block;
     font-size: 100px;
@@ -24,7 +24,7 @@ header h1 {
     text-shadow: 2px 2px 4px grey;
 }
 
-/* Styling the layout of header nav unordered list */
+/* Element selector - Styling the layout of header nav unordered list */
 header nav ul {
     list-style-type: none;
     padding-top: 15px;
@@ -36,14 +36,15 @@ header nav ul li {
     
 }
 
-/* Styling image to fit page */
+/* Element selector - Styling image to fit page */
 img {
     max-width: 100%;
     height: auto;
 }
 
-
-.about-me {
-    font-size: 50px;
+/* Element selector - Section */
+section {
+    font-size: 25px;
+    border: solid 5px white;
+    text-indent: 25%;
 }
-
