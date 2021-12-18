@@ -1,6 +1,7 @@
+/* Basic style of entire page */
 * {
-    background-color: silver;
-    color: rgb(6, 6, 44);
+    background-color: rgb(6, 6, 44);
+    color: ghostwhite;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
     padding:  auto 0;
@@ -8,26 +9,41 @@
 
 }
 
+/* Padding and centering the header */
+header {
+    padding: 20px;
+    text-align: center;
+
+}
+
+/* Styling font and text of h1 */
+header h1 {
+    display: inline-block;
+    font-size: 100px;
+    font-family: brush script mt, Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 4px grey;
+}
+
+/* Styling the layout of header nav unordered list */
+header nav ul {
+    list-style-type: none;
+    padding-top: 15px;
+    font-size: 40px;
+}
+
+header nav ul li {
+    display: inline-block;
+    
+}
+
+/* Styling image to fit page */
 img {
     max-width: 100%;
     height: auto;
 }
 
-header {
-    padding: 20px;
 
-}
-
-header h1 {
-    display: inline-block;
-    font-size: 100px;
-    font-family: brush script mt, Arial, Helvetica, sans-serif;
-    text-shadow: 2px 2px 4px ghostwhite;
-}
-
-header nav {
-    padding-top: 10px;
-    margin-right: 10px;
-    font-size: 20px;
+.about-me {
+    font-size: 50px;
 }
 
