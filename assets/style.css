@@ -49,4 +49,10 @@ section {
     margin: 20px;
 }
 
+/* Media query */
+@media screen and (max-width: 992px) {
+    h1{
+        color:red;
+    }
+}
 
