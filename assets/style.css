@@ -45,6 +45,8 @@ img {
 /* Element selector - Section */
 section {
     font-size: 25px;
-    border: solid 5px white;
-    text-indent: 25%;
+    text-indent: 50%;
+    margin: 20px;
 }
+
+
