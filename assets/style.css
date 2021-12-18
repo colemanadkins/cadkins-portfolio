@@ -7,6 +7,12 @@
     margin: auto 0;
 
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 header {
     padding: 20px;
 
@@ -16,6 +22,7 @@ header h1 {
     display: inline-block;
     font-size: 84px;
 }
+
 header nav {
     padding-top: 10px;
     margin-right: 10px;
