@@ -55,6 +55,8 @@ section {
     align-items: center;
 
 }
+
+
 .app1, .app2, .app3, .app4 {
     margin: 3%;
     position: relative;
@@ -66,6 +68,11 @@ section {
     bottom: 20px;
     right: 10px;
 }
+
+/* .app1 img {
+    height: 150%;
+    width: 150%;
+} */
 
 
 
