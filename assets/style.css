@@ -20,7 +20,6 @@ header {
 header h1 {
     display: inline-block;
     font-size: 100px;
-    font-family: brush script mt, Arial, Helvetica, sans-serif;
     text-shadow: 2px 2px 4px grey;
 }
 
@@ -51,13 +50,17 @@ section {
 
 #container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
+.app1 {
+    flex: 1 0 95%;
+}
 
-.app1, .app2, .app3, .app4 {
+
+.app1, .app2, .app3,.app4 {
     margin: 3%;
     position: relative;
 }
@@ -66,12 +69,10 @@ section {
 .Application1, .Application2, .Application3, .Application4 {
     position: absolute;
     bottom: 20px;
-    right: 10px;
+    right: 20%;
     font-size: 24pt;
     background: transparent;
 }
-
-
 
 footer {
     text-align: center;
