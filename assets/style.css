@@ -20,7 +20,7 @@ header {
 header h1 {
     display: inline-block;
     font-size: 100px;
-    text-shadow: 2px 2px 4px grey;
+    text-shadow: 2px 2px 4px rgb(231, 54, 172);
 }
 
 /* Element selector - Styling the layout of header nav unordered list */
