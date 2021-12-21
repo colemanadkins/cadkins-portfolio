@@ -41,13 +41,21 @@ header nav ul {
     height: auto;
 }
 
-/* Element selector - Section */
+/* Element selector - styling section */
 section {
     font-size: 25px;
     text-align: center;
     margin: 20px;
+
+
 }
 
+/* Element selector - Margin about me section */
+section p {
+    margin: 0 20%;
+}
+
+/* ID selector - flex boxing work container */
 #container {
     display: flex;
     flex-wrap: wrap;
@@ -55,6 +63,7 @@ section {
 
 }
 
+/* Class selector - sizing work images */
 .app1 {
     flex: 1 0 75%;
 }
@@ -66,6 +75,7 @@ section {
 }
 
 
+/* Class selector - positioning captions */
 .Application1, .Application2, .Application3, .Application4 {
     position: absolute;
     bottom: 20px;
@@ -79,7 +89,7 @@ footer {
 }
 
 
-/* Media query */
+/* Media query to resize images*/
 @media screen and (max-width: 992px) {
     section img{
         width:50%;
