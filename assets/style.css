@@ -25,69 +25,16 @@ header h1 {
 
 /* Element selector - Styling the layout of header nav unordered list */
 
-header nav ul {
-    display:flex;
-    flex-wrap: wrap;
+header nav{
     justify-content: space-between;
-    list-style-type: none;
     padding-top: 15px;
     font-size: 40px;
 
 }
 
-/* ID selector - Styling image to fit page */
-#Headshot {
-    max-width: 100%;
-    height: auto;
-}
-
-/* Element selector - styling section */
-section {
-    font-size: 25px;
-    text-align: center;
-    margin: 20px;
-
-
-}
-
-/* Element selector - Margin about me section */
-section p {
-    margin: 0 20%;
-}
-
-/* ID selector - flex boxing work container */
-#container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-/* Class selector - sizing work images */
-.app1 {
-    flex: 1 0 75%;
-}
-
-
-.app1, .app2, .app3,.app4 {
-    margin: 3%;
-    position: relative;
-}
-
-
-/* Class selector - positioning captions */
-.Application1, .Application2, .Application3, .Application4 {
-    position: absolute;
-    bottom: 20px;
-    right: 20%;
-    font-size: 24pt;
-    background: transparent;
-}
-
-footer {
+footer, #contact-me {
     text-align: center;
 }
-
 
 /* Media query to resize images*/
 @media screen and (max-width: 992px) {
