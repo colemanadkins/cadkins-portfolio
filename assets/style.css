@@ -5,48 +5,36 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
     margin: auto 0;
-
 }
-
-
 /* Element selector - Padding and centering the header */
 header {
     padding: 20px;
     text-align: center;
-
 }
-
 /* Element selector - Styling font and text of h1 */
 header h1 {
     display: inline-block;
     font-size: 100px;
     text-shadow: 2px 2px 4px rgb(231, 54, 172);
 }
-
 /* Element selector - Styling the layout of header nav unordered list */
-
 a {
     justify-content: space-between;
     padding-top: 15px;
     font-size: 40px;
-
 }
-
 #headshot {
     border-radius: 50%;
 }
-
 footer, #contact-me {
     text-align: center;
 }
-
 /* Media query to resize images*/
 @media screen and (max-width: 992px) {
     section img{
         width:50%;
     }
 }
-
 @media screen and (max-width: 768px) {
     section img{
         width:100%;
