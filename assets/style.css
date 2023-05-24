@@ -6,6 +6,9 @@
     box-sizing: border-box;
     margin: auto 0;
 }
+p {
+    font-size: 30px;
+}
 /* Element selector - Padding and centering the header */
 header {
     padding: 20px;
